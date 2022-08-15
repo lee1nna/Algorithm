@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98f6fa2a-6842-4df7-943d-510408785774" name="Changes" comment="chore: rename file">
-      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/dfs_basic.js" afterDir="false" />
+    <list default="true" id="98f6fa2a-6842-4df7-943d-510408785774" name="Changes" comment="solve: dfs basic 문제 해결">
+      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/타겟 넘버.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/dfs_basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/dfs_basic.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       <workItem from="1659969468899" duration="4114000" />
       <workItem from="1660466456891" duration="2856000" />
       <workItem from="1660469337580" duration="43000" />
-      <workItem from="1660469382375" duration="4256000" />
+      <workItem from="1660469382375" duration="10608000" />
     </task>
     <task id="LOCAL-00001" summary="solve: dfs basic 문제 해결">
       <created>1660468909623</created>
@@ -62,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660473651893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="solve: dfs basic 문제 해결">
+      <created>1660473829048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660473829048</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,8 +89,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solve: dfs basic 문제 해결" />
     <MESSAGE value="chore: rename file" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: rename file" />
+    <MESSAGE value="solve: dfs basic 문제 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve: dfs basic 문제 해결" />
   </component>
 </project>
