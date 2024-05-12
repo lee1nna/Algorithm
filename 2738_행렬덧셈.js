@@ -7,12 +7,13 @@
 // 출력
 // 첫째 줄부터 N개의 줄에 행렬 A와 B를 더한 행렬을 출력한다. 행렬의 각 원소는 공백으로 구분한다.
 
-const input = require('fs').readFileSync('/dev/stdin').toString().trim().split("\n").map((el) => el.split(" ").map((el) => +el));
-// const input = require('fs').readFileSync(process.platform === "linux" ? "/dev/stdin" : "./2738_행렬덧셈.txt").toString().trim().split("\n").map((el) => el.split(" ").map((el) => +el));
+// const input = require('fs').readFileSync('/dev/stdin').toString().trim().split("\n").map((el) => el.split(" ").map((el) => +el));
+const input = require('fs').readFileSync(process.platform === "linux" ? "/dev/stdin" : "./2738_행렬덧셈.txt").toString().trim().split("\n").map((el) => el.split(" ").map((el) => +el));
 
 const [n, m] = input.shift();
 
 let arr = new Array(n).fill().map(() => new Array(m).fill(0));
+
 let result = ''
 
 for(let i=0; i<n; i++) {
