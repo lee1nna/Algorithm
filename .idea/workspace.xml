@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f6fa2a-6842-4df7-943d-510408785774" name="Changes" comment="solve: dfs basic 문제 해결">
-      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/타겟 넘버.js" afterDir="false" />
+    <list default="true" id="98f6fa2a-6842-4df7-943d-510408785774" name="Changes" comment="Solve: 11005_진법변환2">
+      <change afterPath="$PROJECT_DIR$/2720_세탁소사장동혁.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2720_세탁소사장동혁.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/dfs_basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/dfs_basic.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +27,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2D4s0RKndHHa5A7xTTSX8F303Hb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smart\OneDrive\바탕 화면\hanna\Algorithm" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +67,8 @@
       <workItem from="1660466456891" duration="2856000" />
       <workItem from="1660469337580" duration="43000" />
       <workItem from="1660469382375" duration="10608000" />
+      <workItem from="1715579718093" duration="92000" />
+      <workItem from="1716178980445" duration="4997000" />
     </task>
     <task id="LOCAL-00001" summary="solve: dfs basic 문제 해결">
       <created>1660468909623</created>
@@ -71,7 +91,31 @@
       <option name="project" value="LOCAL" />
       <updated>1660473829048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="solve: 2566_최댓값">
+      <option name="closed" value="true" />
+      <created>1715579754679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715579754679</updated>
+    </task>
+    <task id="LOCAL-00005" summary="solving: 10798_최댓값">
+      <option name="closed" value="true" />
+      <created>1715579777577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715579777577</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Solve: 11005_진법변환2">
+      <option name="closed" value="true" />
+      <created>1716180584401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716180584401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +135,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: rename file" />
     <MESSAGE value="solve: dfs basic 문제 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve: dfs basic 문제 해결" />
+    <MESSAGE value="solve: 2566_최댓값" />
+    <MESSAGE value="solving: 10798_최댓값" />
+    <MESSAGE value="Solve: 11005_진법변환2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve: 11005_진법변환2" />
   </component>
 </project>
