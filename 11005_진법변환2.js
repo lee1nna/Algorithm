@@ -25,7 +25,7 @@ while(Math.floor(quotient/format) !== 0) {
     quotient = Math.floor(quotient/format)
 }
 
-result = quotient < 10? String(quotient) : String.fromCharCode(quotient+55)
+result = quotient < 10? String(quotient) : String.fromCharCode(Number(quotient)+55)
 
 remainder.forEach(r => {
     result += r < 10? String(r) : String.fromCharCode(r+55)
