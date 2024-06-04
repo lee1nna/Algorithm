@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98f6fa2a-6842-4df7-943d-510408785774" name="Changes" comment="Solve: 11005_진법변환2">
-      <change afterPath="$PROJECT_DIR$/1193_분수찾기.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1193_분수찾기.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2869_달팽이는 올라가고 싶다.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2869_달팽이는 올라가고 싶다.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lee1nna"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lee1nna&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lee1nna/Algorithm.git",
-    "accountId": "bcc171b3-963f-451a-a988-af280ea33e71"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lee1nna/Algorithm.git&quot;,
+    &quot;accountId&quot;: &quot;bcc171b3-963f-451a-a988-af280ea33e71&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -88,7 +88,8 @@
       <workItem from="1660469382375" duration="10608000" />
       <workItem from="1715579718093" duration="92000" />
       <workItem from="1716178980445" duration="4997000" />
-      <workItem from="1716857357044" duration="9868000" />
+      <workItem from="1716857357044" duration="10054000" />
+      <workItem from="1717468919905" duration="4386000" />
     </task>
     <task id="LOCAL-00001" summary="solve: dfs basic 문제 해결">
       <created>1660468909623</created>
