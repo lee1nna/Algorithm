@@ -21,4 +21,4 @@ for (let i = +input; i > 0; i--) {
   }
 }
 
-console.log(Math.min(...creator));
+console.log(creator.length > 0 ? Math.min(...creator) : 0);
