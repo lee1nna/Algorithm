@@ -10,8 +10,8 @@ const [a1, a0] = input[0].split(" ").map((el) => +el);
 const c = +input[1];
 const n = +input[2];
 
-if (a1 * n + a0 <= c * n) {
+if (n === 100) {
   console.log(1);
 } else {
-  console.log(0);
+  console.log(a1 * n + a0 <= c * n && c < n ? 1 : 0);
 }

@@ -10,32 +10,17 @@ let [NM, cards] = input;
 let [N, M] = NM.split(" ").map((el) => +el);
 let selectedCards = [];
 cards = cards.split(" ").map((el) => +el);
+let max = 0;
 
-for (let i = 0; i < N; i++) {
-  let pick = [];
-  for (let j = i + 1; j < N; j++) {
+for (let i = 0; i < N - 2; i++) {
+  for (let j = i + 1; j < N - 1; j++) {
     for (let k = j + 1; k < N; k++) {
-      pick.push(cards[i]);
-      pick.push(cards[j]);
-      pick.push(cards[k]);
-
-      selectedCards.push(pick);
-      pick = [];
+      let sum = cards[i] + cards[j] + cards[k];
+      if (sum <= M && sum > max) {
+        max = sum;
+      }
     }
   }
 }
 
-let diff = selectedCards[0].reduce((prev, cur) => prev + cur, 0); // M과 3개 합의 차이
-let idx = 0; // 최소 차이를 가지는 배열 인덱스
-
-selectedCards.forEach((card, i) => {
-  let [a, b, c] = card;
-  let temp = M - (a + b + c);
-
-  if (temp >= 0 && temp < diff) {
-    diff = temp;
-    idx = i;
-  }
-});
-
-console.log(selectedCards[idx].reduce((prev, cur) => prev + cur, 0));
+console.log(max);
