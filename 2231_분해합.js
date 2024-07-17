@@ -7,7 +7,7 @@ const input = require("fs")
 
 let creator = [];
 
-for (let i = +input; i > 0; i--) {
+for (let i = 1; i <= +input; i++) {
   let sum = i;
 
   for (let j = 0; j < input.length; j++) {
@@ -18,7 +18,8 @@ for (let i = +input; i > 0; i--) {
 
   if (sum === +input) {
     creator.push(i);
+    break;
   }
 }
 
-console.log(creator.length > 0 ? Math.min(...creator) : 0);
+console.log(creator.length > 0 ? creator[0] : 0);
