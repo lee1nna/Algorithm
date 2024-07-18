@@ -9,9 +9,13 @@ const input = require("fs")
 const [a1, a0] = input[0].split(" ").map((el) => +el);
 const c = +input[1];
 const n = +input[2];
+let isOk = false;
 
-if (n === 100) {
-  console.log(1);
-} else {
-  console.log(a1 * n + a0 <= c * n && c < n ? 1 : 0);
+for (let i = n; i <= 100; i++) {
+  if (a1 * i + a0 > c * i) {
+    isOk = true;
+    break;
+  }
 }
+
+console.log(isOk ? 0 : 1);
