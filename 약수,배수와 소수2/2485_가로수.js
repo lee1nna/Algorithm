@@ -39,10 +39,4 @@ for (let i = 1; i < dist.length; i++) {
   gcdTemp = gcd(gcdTemp, dist[i]);
 }
 
-let num = 0;
-
-for (let i = input[0]; i < input[input.length - 1]; i += gcdTemp) {
-  num++;
-}
-
-console.log(num);
+console.log((input[input.length - 1] - input[0]) / gcdTemp + 1 - input.length);
