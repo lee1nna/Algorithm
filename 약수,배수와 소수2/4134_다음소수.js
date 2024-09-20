@@ -9,23 +9,29 @@ let input = require("fs")
 
 input.shift();
 
-const findSosu = (num) => {
-  let divisorNum = 0;
+const findPrimeNum = (num) => {
+  let squareRoot = Math.floor(Math.sqrt(num));
+  let divisorArr = [];
 
-  for (let i = 1; i <= num; i++) {
-    if (num % i === 0) {
-      divisorNum++;
+  // 1부터 num의 제곱근까지 num으로 나누어 떨어지는 수 arr 저장
+  for (let i = 1; i <= squareRoot; i++) {
+    if (num !== 0 && num !== 1 && num % i === 0) {
+      divisorArr.push(i);
     }
   }
 
-  if (divisorNum === 2) {
-    console.log(num);
-    return;
+  // num과 num으로 나눠떨어지는 수를 나눈 몫을 arr 저장
+  divisorArr.forEach((el) => {
+    divisorArr.push(num / el);
+  });
+
+  if (divisorArr.length !== 2) {
+    findPrimeNum(num + 1);
   } else {
-    findSosu(num + 1);
+    console.log(num);
   }
 };
 
 input.forEach((el) => {
-  findSosu(el);
+  findPrimeNum(el);
 });
